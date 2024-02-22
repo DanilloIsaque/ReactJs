@@ -31,8 +31,23 @@ function AppContent(){
                     </div>
                 </div>
             </div>
-            <div className='card'></div>
+            <div className='container'>
           
+            <div className='card'>
+                <h3 className='tituloCard'>Restaurante</h3>
+                <div className='divBotao'>
+                <Button className='tituloButton' >Ver Opções   </Button>
+                <img src="./assets/hamburguer.png" className='imagem'/>
+                </div>
+          </div>
+            <div className='card2'>
+            <h3 className='tituloCard'>Mercado</h3>
+                <div className='divBotao'>
+                <Button className='tituloButton2'>Ver Lojas  </Button>
+                <img src="./assets/carrinho.png" className='imagem'/>
+                </div>
+             </div>
+            </div>
             </Typography>
         
         </>

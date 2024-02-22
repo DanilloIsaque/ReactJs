@@ -59,8 +59,93 @@
    padding-top: 5%;
 }
 
+.container{
+    text-align: center;
+    position: relative;
+}
+
 .card{
     display: inline-block;
-    justify-content: center;
+    height: 250px;
+    font-size: 30px;
+    width: 400px;
+    background-color: rgba(255, 0, 0, 0.856);
+    margin: 0 50px;
+    color: white;
+    border-radius: 10%;
+    position: relative;
+    
     
 }
+.card2{
+    display: inline-block;
+    height: 250px;
+    font-size: 30px;
+    width: 400px;
+    background-color: rgba(131, 230, 106, 0.781);
+    margin: 0 50px;
+    color: white;
+    border-radius: 10%;
+    position: relative;
+    
+    
+}
+.imagem-canto {
+    position: absolute; /* Posicionamento absoluto em relação à sua div pai (.box) */
+    bottom: 0; /* Alinha a imagem ao fundo da div */
+    right: 0; /* Alinha a imagem à direita da div */
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+    /* Ajuste a largura e a altura conforme necessário */
+}  
+
+.tituloCard{
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
+.tituloButton{
+    text-align: left;
+    
+    background-color: rgba(204, 13, 13, 0.644) !important;
+    color: white !important;
+     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); ;
+    float: left;
+     transition: all 0.3s ease; /* Suaviza a transição da sombra */
+   }
+
+.tituloButton2{
+    text-align: left;
+    
+    background-color: rgb(0, 128, 38) !important;
+    color: white !important;
+     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); ;
+    float: left;
+     transition: all 0.3s ease; /* Suaviza a transição da sombra */
+   }
+   
+ 
+ .tituloButton:active {
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra mais "interna", efeito de pressionado */
+     transform: translateY(2px); /* Desloca o botão ligeiramente para baixo */
+   }
+
+   .tituloButton2:active {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra mais "interna", efeito de pressionado */
+    transform: translateY(2px); /* Desloca o botão ligeiramente para baixo */
+  }
+
+
+.divBotao{
+    padding-top: 10%;
+    margin-left: 30px;
+   }
+
+.imagem {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 180px;
+    height: 180px;
+  }
