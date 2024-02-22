@@ -1,0 +1,32 @@
+.toolBar{
+    display: flex;
+    justify-content: space-between;
+}
+.navLinks{
+    display: flex;
+    gap: 20px;
+       margin-right: 15%;
+}
+
+links:hover{
+    color: red;
+    cursor: pointer;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.btn_red{
+    background-color: red !important;
+    color: white !important;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+    
+}
