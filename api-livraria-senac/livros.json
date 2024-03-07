@@ -1,0 +1,22 @@
+[{
+    "titulo":"Harry Potter",
+    "author":"Joao",
+    "ano":2014,
+    "preco":"R$13,90",
+    "imagem":"https://tse3.mm.bing.net/th?id=OIP.lyqG8dPdqqmnvtsRA3q4SwHaLQ&pid=Api"
+},
+{
+    "titulo":"Aprenda SexoScript: iniciante ao avançado",
+    "author":"Joao",
+    "ano":2024,
+    "preco":"R$69,69",
+    "imagem":"https://tse3.mm.bing.net/th?id=OIP.x9x9FGQuG86BQblhm1IC8gHaHa&pid=Api"
+},
+{
+    "titulo":"Batman, super herois , lanterna verde",
+    "author":"Cristopher Nolan",
+    "ano":2008,
+    "preco":"R$22,22",
+    "imagem":"https://tse2.mm.bing.net/th?id=OIP.mAUxs1zEHnznL1eyV08nBQHaEo&pid=Api"
+}
+]
