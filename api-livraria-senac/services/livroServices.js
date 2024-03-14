@@ -13,3 +13,9 @@ exports.buscarLivros = () => {
     return JSON.parse(meuLivros);
 
 }
+
+exports.buscarPorTitulo = (titulo)=>{
+    const livros = JSON.parse(meuLivros);
+    return livros.find(livro => livro.titulo.toLowerCase().includes(titulo.toLowerCase));
+
+}
