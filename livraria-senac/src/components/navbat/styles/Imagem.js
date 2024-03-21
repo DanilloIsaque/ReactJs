@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ImagemLogo = styled.img`
     width:400px;
     height:200px;
+    background-size:cover;
   
 `;
 
@@ -13,8 +14,9 @@ display:flex;
 
 export const Container = styled.div`
 display:flex;
-flex-direction:column;
+flex-direction:${props => props.direcao || 'row'};
 align-itens:center;
+
 `;
 
 export const Texto = styled.p`

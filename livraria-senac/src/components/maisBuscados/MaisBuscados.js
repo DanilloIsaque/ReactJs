@@ -21,14 +21,18 @@ const MaisBuscados= () => {
     },[])
 
     return(
+        
         <Centralizar>
+            
         <>
+      
         {
             livros.map((livro)=>{
                 return(
                     <>
-                    <Container>
-                        <Titulo>{livro.titulo}</Titulo>
+                    <Container direcao="column">
+                       
+
                         <ImagemLogo src={livro.imagem} />
                         <Texto> {livro.preco}</Texto>
                         </Container>

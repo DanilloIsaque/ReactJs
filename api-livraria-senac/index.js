@@ -32,13 +32,13 @@ res.status(200).json(livrosImportados.buscarLivros());
 
 });
 
-app.getMaxListeners('/buscarLivrosPorTitulo/:titulo',(req,res)=>{
+app.get('/buscarLivrosPorTitulo/:titulo',(req,res)=>{
     //extrair o titulo que pe enviado da url pelo cliente
     const {titulo} = req.params;
     //chamo a função do serviço e peasso o titulo
     const resultado = livrosImportados.buscarPorTitulo(titulo);
 if(resultado){
-    res.status(200),send(resultado);
+    res.status(200).send(resultado);
 }else{
     res.status(400).send('Recurso não encontrado');
 }

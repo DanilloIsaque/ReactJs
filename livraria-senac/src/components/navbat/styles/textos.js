@@ -9,6 +9,14 @@ export const Titulo = styled.h1` //só posso yusar ele em outro arquivo se expor
     line-weight:1.5rem;
         
 `;
+export const Input = styled.input`
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1px;
+    background-color:#fff;
+`;
 
 
 
